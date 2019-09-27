@@ -121,7 +121,7 @@
         <yarn.version>v1.5.1</yarn.version>
 
         <!--Project properties-->
-        <ddf.version>2.18.0</ddf.version>
+        <ddf.version>2.18.1-SNAPSHOT</ddf.version>
         <ddf.support.version>2.3.16</ddf.support.version>
         <codice-maven.version>0.2</codice-maven.version>
         <codice-test.version>0.3</codice-test.version>
@@ -178,7 +178,8 @@
         <xstream.version>1.4.9</xstream.version>
         <!-- Command line argument properties for the maven-surefire-plugin -->
         <surefire.argline.append />
-        <surefire.argline>${jacoco.argline} ${surefire.argline.append} -Xmx1024m -XX:MaxPermSize=256m -Djava.awt.headless=true -noverify -Duser.timezone=UTC -Dddf.version=${ddf.version}</surefire.argline>
+        <surefire.argline>${jacoco.argline} ${surefire.argline.append} -Xmx1024m -XX:MaxPermSize=256m -Djava.awt.headless=true -noverify -Duser.timezone=UTC -D
+		ersion=${ddf.version}</surefire.argline>
     </properties>
 
     <scm>
